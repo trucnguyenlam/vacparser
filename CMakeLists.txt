@@ -5,8 +5,11 @@ project(vacparser)
 set(CMAKE_CXX_STANDARD 11)  # enable C++11 standard
 
 set(SOURCE_FILES
+        src/Logics.cpp
+        src/Models.cpp
         src/Tokens.cpp
         src/Lexer.cpp
+        src/Parser.cpp
         src/main.cpp
 )
 

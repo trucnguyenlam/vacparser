@@ -1,0 +1,309 @@
+USERS
+user0
+user1
+user2
+user3
+user4
+user5
+user6
+user7
+user8
+user9
+user10
+user11
+user12
+user13
+user14
+user15
+user16
+user17
+user18
+user19
+user20
+user21
+user22
+user23
+user24
+user25
+user26
+user27
+user28
+user29
+user30
+user31
+user32
+user33
+user34
+user35
+user36
+user37
+user38
+user39
+user40
+user41
+user42
+user43
+user44
+user45
+user46
+user47
+user48
+user49
+user50
+user51
+user52
+user53
+user54
+user55
+user56
+user57
+user58
+user59
+user60
+user61
+user62
+user63
+user64
+user65
+user66
+user67
+user68
+user69
+user70
+user71
+user72
+user73
+user74
+user75
+user76
+user77
+user78
+user79
+user80
+user81
+user82
+user83
+user84
+user85
+user86
+user87
+user88
+user89
+user90
+user91
+user92
+user93
+user94
+user95
+user96
+user97
+user98
+quser0
+quser1
+;
+
+ATTRIBUTES
+Student[1]
+Undergrad[1]
+Grad[1]
+TA[1]
+RA[1]
+Grader[1]
+GradStudOfficer[1]
+HonorsStudent[1]
+GradCommittee[1]
+UndergradPermittedGradClass[1]
+AdmissionsOfficer[1]
+AssistantProf[1]
+AssociateProf[1]
+Dean[1]
+DeanOfAdmissions[1]
+DeptChair[1]
+Employee[1]
+FacilitiesCommittee[1]
+FacilitiesDirector[1]
+Faculty[1]
+FullTimeEmployee[1]
+GradAdmissionsCommittee[1]
+HonorsPgmDirector[1]
+Lecturer[1]
+President[1]
+Professor[1]
+Provost[1]
+QualExamCommittee[1]
+QualExamCommitteeHead[1]
+Staff[1]
+TenuredFac[1]
+AsstForStudentAffairs[1]
+ProjectDirector[1]
+Supervisor[1]
+;
+
+INIT
+<user0:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user1:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=1,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user2:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user3:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=1,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user4:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user5:Student=0,Undergrad=1,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user6:Student=0,Undergrad=1,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user7:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user8:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user9:Student=0,Undergrad=0,Grad=1,TA=1,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user10:Student=1,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user11:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user12:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user13:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user14:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user15:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user16:Student=1,Undergrad=0,Grad=1,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=1,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user17:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user18:Student=0,Undergrad=0,Grad=1,TA=1,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user19:Student=1,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user20:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user21:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user22:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=1,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=1,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user23:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user24:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=1,Dean=0,DeanOfAdmissions=1,DeptChair=1,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user25:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user26:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user27:Student=1,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user28:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user29:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user30:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user31:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=1,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user32:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user33:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=1,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user34:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user35:Student=0,Undergrad=1,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user36:Student=0,Undergrad=0,Grad=0,TA=1,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user37:Student=1,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user38:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user39:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user40:Student=0,Undergrad=0,Grad=0,TA=1,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user41:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user42:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=1>
+<user43:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user44:Student=1,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user45:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user46:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user47:Student=0,Undergrad=1,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user48:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=1,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=1,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user49:Student=0,Undergrad=1,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=1,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user50:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user51:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user52:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=1,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user53:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user54:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user55:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user56:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user57:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user58:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user59:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user60:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user61:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user62:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user63:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user64:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=1,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user65:Student=1,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user66:Student=0,Undergrad=1,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=1,Supervisor=0>
+<user67:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user68:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user69:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user70:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=1,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user71:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user72:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user73:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user74:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=1,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user75:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=1,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user76:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user77:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user78:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user79:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user80:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user81:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user82:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user83:Student=0,Undergrad=0,Grad=0,TA=0,RA=1,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=1,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user84:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user85:Student=1,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user86:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user87:Student=0,Undergrad=0,Grad=0,TA=1,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=1,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=1,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=1,ProjectDirector=0,Supervisor=0>
+<user88:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=1,Staff=1,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=1,Supervisor=0>
+<user89:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=1>
+<user90:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=1,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=1,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user91:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=1,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=1,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user92:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=1,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=1,FacilitiesDirector=0,Faculty=1,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=1,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user93:Student=0,Undergrad=0,Grad=0,TA=1,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=1,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user94:Student=0,Undergrad=0,Grad=1,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user95:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=1,AssociateProf=0,Dean=1,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=1,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user96:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=0,GradStudOfficer=0,HonorsStudent=0,GradCommittee=1,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=1,Employee=1,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user97:Student=0,Undergrad=0,Grad=0,TA=0,RA=0,Grader=1,GradStudOfficer=0,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=0,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=0,Lecturer=0,President=0,Professor=0,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<user98:Student=0,Undergrad=0,Grad=1,TA=0,RA=1,Grader=1,GradStudOfficer=1,HonorsStudent=0,GradCommittee=0,UndergradPermittedGradClass=0,AdmissionsOfficer=0,AssistantProf=0,AssociateProf=1,Dean=0,DeanOfAdmissions=0,DeptChair=0,Employee=0,FacilitiesCommittee=0,FacilitiesDirector=0,Faculty=0,FullTimeEmployee=0,GradAdmissionsCommittee=0,HonorsPgmDirector=1,Lecturer=0,President=0,Professor=1,Provost=0,QualExamCommittee=0,QualExamCommitteeHead=0,Staff=0,TenuredFac=0,AsstForStudentAffairs=0,ProjectDirector=0,Supervisor=0>
+<quser0:Faculty=1>
+<quser1:Undergrad=1>
+;
+
+RULES
+<(a.AdmissionsOfficer=1 | a.DeanOfAdmissions=1 | a.Provost=1),TRUE: t.Undergrad=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Grad=1 | t.TA=1 | t.RA=1)): t.TA=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Grad=1 | t.TA=1 | t.RA=1)): t.GradStudOfficer=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.GradStudOfficer=1)): t.GradCommittee=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Undergrad=1 | t.Grader=1)): t.Grader=1>
+<(a.Faculty=1 | a.Lecturer=1 | a.AssistantProf=1 | a.AssociateProf=1 | a.Professor=1 | a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Student=1 | t.Undergrad=1 | t.Grad=1)): t.RA=1>
+<(a.GradAdmissionsCommittee=1),TRUE: t.Grad=1>
+<(a.HonorsPgmDirector=1), ((t.Undergrad=1 | t.Grader=1)): t.HonorsStudent=1>
+<(a.Faculty=1 | a.Lecturer=1 | a.AssistantProf=1 | a.AssociateProf=1 | a.Professor=1 | a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Undergrad=1 | t.Grader=1)): t.UndergradPermittedGradClass=1>
+<(a.Dean=1 | a.Provost=1 | a.President=1), ((t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1) & (t.Dean=0 & t.Provost=0 & t.President=0) & (t.Provost=0 & t.President=0)): t.DeptChair=1>
+<(a.Dean=1 | a.Provost=1 | a.President=1), ((t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1)): t.AsstForStudentAffairs=1>
+<(a.DeanOfAdmissions=1 | a.Provost=1), ((t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1)): t.AdmissionsOfficer=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Faculty=1 | t.Lecturer=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.GradAdmissionsCommittee=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Faculty=1 | t.Lecturer=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.GradCommittee=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Faculty=1 | t.Lecturer=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.HonorsPgmDirector=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Employee=1 | t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1 | t.Faculty=1 | t.Lecturer=1 | t.Faculty=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.FacilitiesCommittee=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Faculty=1 | t.Lecturer=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.FacilitiesDirector=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.Faculty=1 | t.Lecturer=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.QualExamCommittee=1>
+<(a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1), ((t.GradCommittee=1)): t.QualExamCommitteeHead=1>
+<(a.President=1),TRUE: t.Staff=1>
+<(a.President=1),TRUE: t.DeanOfAdmissions=1>
+<(a.President=1),TRUE: t.Lecturer=1>
+<(a.President=1),TRUE: t.AssistantProf=1>
+<(a.President=1),TRUE: t.AssociateProf=1>
+<(a.President=1),TRUE: t.Professor=1>
+<(a.President=1), ((t.Employee=1 | t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1 | t.Faculty=1 | t.Lecturer=1 | t.Faculty=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.FullTimeEmployee=1>
+<(a.President=1), ((t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1) & (t.DeptChair=0 & t.Dean=0 & t.Provost=0 & t.President=0)): t.Provost=1>
+<(a.Provost=1 | a.President=1), ((t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1) & (t.DeptChair=0 & t.Dean=0 & t.Provost=0 & t.President=0)): t.Dean=1>
+<(a.President=1), ((t.Employee=1 | t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1 | t.Faculty=1 | t.Lecturer=1 | t.Faculty=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.ProjectDirector=1>
+<(a.President=1), ((t.Employee=1 | t.Staff=1 | t.AdmissionsOfficer=1 | t.DeanOfAdmissions=1 | t.Provost=1 | t.Faculty=1 | t.Lecturer=1 | t.Faculty=1 | t.AssistantProf=1 | t.AssociateProf=1 | t.Professor=1 | t.DeptChair=1 | t.Dean=1 | t.Provost=1 | t.President=1)): t.Supervisor=1>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.TA=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.GradStudOfficer=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.GradCommittee=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.Grader=0>
+<a.Faculty=1 | a.Lecturer=1 | a.AssistantProf=1 | a.AssociateProf=1 | a.Professor=1 | a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.RA=0>
+<a.HonorsPgmDirector=1, TRUE: t.HonorsStudent=0>
+<a.Faculty=1 | a.Lecturer=1 | a.AssistantProf=1 | a.AssociateProf=1 | a.Professor=1 | a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.UndergradPermittedGradClass=0>
+<a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.DeptChair=0>
+<a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.AsstForStudentAffairs=0>
+<a.DeanOfAdmissions=1 | a.Provost=1, TRUE: t.AdmissionsOfficer=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.GradAdmissionsCommittee=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.GradCommittee=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.HonorsPgmDirector=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.FacilitiesCommittee=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.FacilitiesDirector=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.QualExamCommittee=0>
+<a.DeptChair=1 | a.Dean=1 | a.Provost=1 | a.President=1, TRUE: t.QualExamCommitteeHead=0>
+<a.President=1, TRUE: t.Staff=0>
+<a.President=1, TRUE: t.DeanOfAdmissions=0>
+<a.President=1, TRUE: t.Lecturer=0>
+<a.President=1, TRUE: t.AssistantProf=0>
+<a.President=1, TRUE: t.AssociateProf=0>
+<a.President=1, TRUE: t.Professor=0>
+<a.President=1, TRUE: t.FullTimeEmployee=0>
+<a.President=1, TRUE: t.Provost=0>
+<a.Provost=1 | a.President=1, TRUE: t.Dean=0>
+<a.President=1, TRUE: t.ProjectDirector=0>
+<a.President=1, TRUE: t.Supervisor=0>
+;
+
+QUERY
+quser1.HonorsStudent=1;
+

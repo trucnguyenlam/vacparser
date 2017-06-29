@@ -48,6 +48,10 @@ class Token {
 
 
     std::string ToString(void) const;
+    TokenType getType(void) const;
+    std::string getLexeme(void) const;
+    int getLiteral(void) const;
+    int getLine(void) const;
 
   private:
     TokenType type;

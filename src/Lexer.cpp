@@ -29,16 +29,24 @@ Scanner::Scanner(std::string source):
 
 }
 
+Scanner::~Scanner() {
+    tokens.clear();
+}
+
 std::vector<Token *>& Scanner::scanTokens(void) {
     while (!isAtEnd()) {
         start = current;
         scanToken();
     }
-
     tokens.push_back(new Token(ENDOFFILE, "", 0, line));
     return tokens;
-
 }
+
+std::vector<Token *>& Scanner::getTokens(void) {
+    return tokens;
+}
+
+
 
 void Scanner::scanToken(void) {
     char c = advance();
@@ -64,7 +72,7 @@ void Scanner::scanToken(void) {
         if (match('/')) {
             while (peek() != '\n' && !isAtEnd()) advance();
         } else {
-            throw "Line " + std::to_string(line) + ": / is unexpected!\n";
+            throw "LexerError: line " + std::to_string(line) + ": / is unexpected!\n";
         }
         break;
     case ' ':
@@ -87,8 +95,8 @@ void Scanner::scanToken(void) {
         } else if (isAlpha(c)) {
             identifier();
         } else {
-            throw "Line " + std::to_string(line) \
-                + ": unexpected character " + std::to_string(c) + "\n";
+            throw "LexerError: line " + std::to_string(line) \
+            + ": unexpected character " + std::to_string(c) + "\n";
         }
         break;
     }
@@ -113,6 +121,8 @@ void Scanner::identifier(void) {
     auto it = keywords.find(text);
     if (it == keywords.end()) {
         addToken(IDENTIFIER);
+    } else {
+        addToken(it->second);
     }
 }
 

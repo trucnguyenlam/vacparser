@@ -1,3 +1,4 @@
+#pragma once
 
 #include "Tokens.h"
 
@@ -11,8 +12,10 @@ namespace Parser
 class Scanner {
 public:
     Scanner(std::string source);
+    ~Scanner();
 
     std::vector<Token *>& scanTokens(void);
+    std::vector<Token *>& getTokens(void);
 
 private:
     void scanToken(void);
@@ -28,7 +31,6 @@ private:
     char advance(void);
     void addToken(TokenType type);
     void addToken(TokenType type, int literal);
-
 
     std::string source;
     std::vector<Token *> tokens;

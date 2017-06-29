@@ -1,0 +1,253 @@
+USERS
+user0
+user1
+user2
+user3
+user4
+user5
+user6
+user7
+user8
+user9
+user10
+user11
+user12
+user13
+user14
+user15
+user16
+user17
+user18
+user19
+user20
+user21
+user22
+user23
+user24
+user25
+user26
+user27
+user28
+user29
+user30
+user31
+user32
+user33
+user34
+user35
+user36
+user37
+user38
+user39
+user40
+user41
+user42
+user43
+user44
+user45
+user46
+user47
+user48
+user49
+user50
+user51
+user52
+user53
+user54
+user55
+user56
+user57
+user58
+user59
+user60
+user61
+user62
+user63
+user64
+user65
+user66
+user67
+user68
+user69
+user70
+user71
+user72
+user73
+user74
+user75
+user76
+user77
+user78
+user79
+user80
+user81
+user82
+user83
+user84
+user85
+user86
+user87
+user88
+user89
+user90
+user91
+user92
+user93
+user94
+user95
+user96
+user97
+user98
+quser0
+;
+
+ATTRIBUTES
+Employee[1]
+Agent[1]
+Doctor[1]
+Manager[1]
+MedicalManager[1]
+MedicalTeam[1]
+Nurse[1]
+Patient[1]
+PrimaryDoctor[1]
+ReferredDoctor[1]
+Receptionist[1]
+ThirdParty[1]
+PatientWithTPC[1]
+;
+
+INIT
+<user0:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user1:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user2:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user3:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user4:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user5:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user6:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user7:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user8:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user9:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user10:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user11:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user12:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user13:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user14:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user15:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user16:Employee=1,Agent=1,Doctor=1,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user17:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user18:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user19:Employee=0,Agent=1,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user20:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user21:Employee=0,Agent=1,Doctor=0,Manager=1,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user22:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user23:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user24:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user25:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user26:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user27:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user28:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user29:Employee=0,Agent=0,Doctor=0,Manager=1,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user30:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user31:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user32:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user33:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user34:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user35:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user36:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user37:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user38:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user39:Employee=1,Agent=1,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user40:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user41:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user42:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user43:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user44:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user45:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user46:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user47:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user48:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user49:Employee=1,Agent=1,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user50:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user51:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user52:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user53:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user54:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user55:Employee=1,Agent=0,Doctor=0,Manager=1,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user56:Employee=0,Agent=0,Doctor=0,Manager=1,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user57:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user58:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user59:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user60:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user61:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user62:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user63:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user64:Employee=0,Agent=0,Doctor=0,Manager=1,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user65:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user66:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user67:Employee=1,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user68:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user69:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user70:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user71:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user72:Employee=0,Agent=1,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user73:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user74:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user75:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user76:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user77:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user78:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user79:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user80:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=1,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user81:Employee=0,Agent=0,Doctor=1,Manager=0,MedicalManager=1,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user82:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user83:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user84:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user85:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user86:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user87:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user88:Employee=0,Agent=0,Doctor=0,Manager=1,MedicalManager=1,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=1,Receptionist=0,ThirdParty=1,PatientWithTPC=0>
+<user89:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user90:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+<user91:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user92:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user93:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=1>
+<user94:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=1,Patient=0,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user95:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=1>
+<user96:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user97:Employee=0,Agent=0,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=0,Nurse=0,Patient=0,PrimaryDoctor=1,ReferredDoctor=0,Receptionist=0,ThirdParty=0,PatientWithTPC=0>
+<user98:Employee=1,Agent=1,Doctor=0,Manager=0,MedicalManager=0,MedicalTeam=1,Nurse=0,Patient=1,PrimaryDoctor=0,ReferredDoctor=0,Receptionist=1,ThirdParty=0,PatientWithTPC=0>
+;
+
+RULES
+<(a.Doctor=1 | a.Employee=1),TRUE: t.ThirdParty=1>
+<(a.Doctor=1 | a.Employee=1), ((t.Doctor=1 | t.Employee=1)): t.ReferredDoctor=1>
+<(a.MedicalManager=1 | a.Employee=1), ((t.Doctor=1 | t.Employee=1)): t.MedicalTeam=1>
+<(a.MedicalManager=1 | a.Employee=1), ((t.Nurse=1 | t.Employee=1)): t.MedicalTeam=1>
+<(a.Manager=1 | a.Employee=1),TRUE: t.Employee=1>
+<(a.Manager=1 | a.Employee=1),TRUE: t.MedicalManager=1>
+<(a.Manager=1 | a.Employee=1),TRUE: t.Receptionist=1>
+<(a.Manager=1 | a.Employee=1),TRUE: t.Nurse=1>
+<(a.Manager=1 | a.Employee=1),TRUE: t.Doctor=1>
+<(a.Patient=1),TRUE: t.Agent=1>
+<(a.Patient=1), ((t.Doctor=1 | t.Employee=1)): t.PrimaryDoctor=1>
+<(a.Receptionist=1 | a.Employee=1),TRUE: t.Patient=1>
+<(a.ThirdParty=1), ((t.Patient=1)): t.PatientWithTPC=1>
+<a.Doctor=1 | a.Employee=1, TRUE: t.ThirdParty=0>
+<a.Doctor=1 | a.Employee=1, TRUE: t.ReferredDoctor=0>
+<a.MedicalManager=1 | a.Employee=1, TRUE: t.MedicalTeam=0>
+<a.MedicalManager=1 | a.Employee=1, TRUE: t.MedicalTeam=0>
+<a.Manager=1 | a.Employee=1, TRUE: t.Employee=0>
+<a.Manager=1 | a.Employee=1, TRUE: t.MedicalManager=0>
+<a.Manager=1 | a.Employee=1, TRUE: t.Receptionist=0>
+<a.Manager=1 | a.Employee=1, TRUE: t.Nurse=0>
+<a.Manager=1 | a.Employee=1, TRUE: t.Doctor=0>
+<a.Patient=1, TRUE: t.Agent=0>
+<a.Patient=1, TRUE: t.PrimaryDoctor=0>
+<a.Doctor=1 | a.Employee=1, TRUE: t.Patient=0>
+<a.ThirdParty=1, TRUE: t.PatientWithTPC=0>
+;
+
+QUERY
+quser0.Nurse=1;
+
