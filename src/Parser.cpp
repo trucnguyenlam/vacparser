@@ -16,7 +16,7 @@ ParserError::ParserError(const std::string &msg) : std::exception(), _message(ms
 }
 
 const char* ParserError::what() const noexcept {
-    return _message.c_str();
+    return ("ParserError: " + _message).c_str();
 }
 
 HandParser::HandParser(std::vector<Token *> tokens):
